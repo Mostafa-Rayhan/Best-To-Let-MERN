@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.formDiv {
+  background-color: #efefef;
+  padding: 20px;
+  border-radius: 10px;
+  /* width:700px; */
+}
+.inputDiv {
+  /* display:flex;
+      align-items:center;
+      justify-content:space-between; */
+  padding-bottom: 10px;
+}
+.inputDiv3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputDiv input,
+.inputDiv3 input,
+.inputDiv textarea,
+.multipleInputDiv {
+  width: 70%;
+}
+.multipleInputDiv,
+.multipleInputDiv2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.newsInput {
+  padding: 1px 5px;
+}
+
+.newsInput::placeholder {
+  color: #999;
+}
+
+.submitBtnNews {
+  margin-top: 10px;
+  padding: 5px 30px !important;
+}
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  background-color: #efefef !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .formDiv {
+    width: 100%;
+  }
+}
